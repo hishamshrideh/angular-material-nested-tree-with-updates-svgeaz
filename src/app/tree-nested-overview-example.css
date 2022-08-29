@@ -1,0 +1,20 @@
+.example-tree-invisible {
+  display: none;
+}
+
+.example-tree ul,
+.example-tree li {
+  margin-top: 0;
+  margin-bottom: 0;
+  list-style-type: none;
+}
+
+/* silly UX, they want a border in the full width of the tree between tree nodes */
+.example-tree {
+  position: relative;
+}
+
+.example-tree-node-name {
+  flex: 1 1 auto;
+}
+
